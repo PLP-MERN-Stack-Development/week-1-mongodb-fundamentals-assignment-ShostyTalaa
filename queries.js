@@ -77,7 +77,9 @@ db.books.createIndex({ title: 1 })
 db.books.createIndex({ author: 1, published_year: 1 })
 
 //- Use the `explain()` method to demonstrate the performance improvement with your indexes
-db.books.find({ title: "The Alchemist" }).explain("executionStats")
+db.books.find(
+  { title: "The Alchemist" }
+).explain("executionStats")
 
 
 
