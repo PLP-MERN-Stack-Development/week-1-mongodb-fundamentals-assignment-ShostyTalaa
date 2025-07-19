@@ -1,0 +1,11 @@
+{
+  "editor.suggestOnTriggerCharacters": true,
+  "terminal.integrated.suggest.suggestOnTriggerCharacters": true,
+  "editor.quickSuggestions": {
+    "other": "off"
+  },
+  "editor.suggest.selectionMode": "never",
+  "editor.acceptSuggestionOnEnter": "on",
+  "editor.inlineSuggest.edits.allowCodeShifting": "never",
+  "editor.inlineSuggest.enabled": false
+}
